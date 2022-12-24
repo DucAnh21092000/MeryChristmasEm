@@ -1,0 +1,40 @@
+@keyframes run {
+    from {
+        right: -760px
+    }
+
+    to {
+        right: 560px;
+    }
+}
+
+.ani {
+    animation: run 40s infinite;
+}
+
+@import url("http://fonts.cdnfonts.com/css/poppins");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow: hidden;
+    width: 100%;
+}
+.volumn,
+.muted {
+    position: absolute;
+    z-index: 9;
+    color: white;
+    bottom: 0;
+}
+
+.muted {
+    right: 20px;
+}
+
+.volumn {
+    right: 70px
+}

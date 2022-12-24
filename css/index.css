@@ -1,0 +1,53 @@
+ 
+  .people {
+      position: absolute;
+      z-index: 9;
+      top: -80px;
+      transform: scale(0.5);
+  }
+
+  .tree {
+      position: absolute;
+      z-index: 10;
+      bottom: 10px;
+      transform: scale(0.5);
+      right: 10px;
+  }
+
+  .people__tree {
+        position: absolute;
+        z-index: 10;
+        bottom: -176px;
+        transform: scale(0.3);
+        left: -191px;
+        background-color: black;
+        color: red;
+        background-size: contain;
+        background-clip: border-box;
+      }
+
+  #snowflakeContainer {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 2;
+  }
+
+  .snowflake {
+      padding-left: 15px;
+      font-size: 14px;
+      line-height: 24px;
+      position: fixed;
+      color: rgba(255, 255, 255, 0.884);
+      user-select: none;
+      z-index: 1000;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+  }
+
+  .snowflake:hover {
+      cursor: default
+  }
